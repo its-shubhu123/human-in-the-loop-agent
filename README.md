@@ -20,7 +20,7 @@ A Streamlit chat app where a Gemini-powered agent must get your explicit approva
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/human-in-the-loop-agent.git
+git clone https://github.com/its-shubhu123/human-in-the-loop-agent.git
 cd human-in-the-loop-agent
 pip install -r requirements.txt
 ```
@@ -46,6 +46,7 @@ Then open the URL Streamlit prints (usually http://localhost:8501).
 
 1. Add `GEMINI_API_KEY` and `TAVILY_API_KEY` in the Colab **Secrets** tab (🔑).
 2. Install dependencies and [cloudflared](https://github.com/cloudflare/cloudflared) for a public tunnel:
+
 
    ```python
    !pip install -q streamlit langchain-google-genai langchain-core requests
