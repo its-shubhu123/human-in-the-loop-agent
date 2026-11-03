@@ -100,7 +100,3 @@ Then open the URL Streamlit prints (usually http://localhost:8501).
 ## Security
 
 Never commit API keys. This project reads them from environment variables only.
-
-## License
-
-MIT
